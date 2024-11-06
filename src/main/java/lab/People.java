@@ -60,6 +60,10 @@ public class People implements Iterable<Person>{
         System.out.println(Arrays.toString(personList.toArray()));
     }
 
+    public List<Person> getPersonList() {
+        return personList;
+    }
+
     @Override
     public String toString() {
         return "People" +

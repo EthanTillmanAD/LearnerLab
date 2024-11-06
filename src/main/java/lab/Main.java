@@ -30,5 +30,12 @@ public class Main {
 
         System.out.println(listOfPeople);
 
+        Students students = Students.getInstance();
+
+
+        System.out.println(students);
+
+
+
     }
 }
